@@ -37,3 +37,4 @@ class Review(Base):
         return f"Review(id={self.id}, "+ \
                f"score = {self.score}, "+ \
                f"game_id = {self.game_id})"
+
